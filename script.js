@@ -1,7 +1,7 @@
 function descargarContacto() {
     const vcardData = `BEGIN:VCARD
 VERSION:3.0
-FN:Dina Muñoz Jimenez
+FN:Diana Muñoz Jimenez
 TEL: +57 3168260065
 NOTE: Directora Administrativa
 END:VCARD`;
@@ -21,7 +21,7 @@ function descargarContacto1() {
 VERSION:3.0
 FN:Jimenez Puerta Abogados
 TEL: +57 3187324455
-NOTE: facturacion@jimenezpuerta.com
+EMAIL:facturacion@jimenezpuerta.com
 END:VCARD`;
 
     const blob = new Blob([vcardData], { type: 'text/vcard' });
